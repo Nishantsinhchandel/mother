@@ -1,0 +1,49 @@
+body{
+  background-color: #49d2ff;
+  font-family:cursive;
+}
+
+h1
+{
+  ;
+  color:rgb(255 0 0);
+  background-color: #dcfcff;
+}
+
+#show_sketch
+{
+  float:right;
+}
+
+#timer{
+  float: right;
+}
+
+#sketch_to_be_drawn{
+  color: red;
+}
+
+canvas 
+  {
+    border:2px solid white;
+    border-radius:20px;
+    margin-top:135px;
+    box-shadow:5px 5px 5px grey;
+    box-shadow: 1px 1px 38px #ffffff;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes example {
+
+  from {box-shadow: 1px 1px 38px #ffd100;}
+  to {box-shadow: 1px 1px 38px #df1a0a;}
+
+}
+
+
+p, span
+{
+    padding-top:10px;
+    font-size:25px;
+}
